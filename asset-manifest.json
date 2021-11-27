@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3ba679cb.chunk.css",
+    "main.js": "/static/js/main.9c1f2c00.chunk.js",
+    "main.js.map": "/static/js/main.9c1f2c00.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.25c2bd10.js",
+    "runtime-main.js.map": "/static/js/runtime-main.25c2bd10.js.map",
+    "static/js/2.12831330.chunk.js": "/static/js/2.12831330.chunk.js",
+    "static/js/2.12831330.chunk.js.map": "/static/js/2.12831330.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.3ba679cb.chunk.css.map": "/static/css/main.3ba679cb.chunk.css.map",
+    "static/js/2.12831330.chunk.js.LICENSE.txt": "/static/js/2.12831330.chunk.js.LICENSE.txt",
+    "static/media/Background.3369664a.png": "/static/media/Background.3369664a.png",
+    "static/media/bg-sm.b2f0cc38.png": "/static/media/bg-sm.b2f0cc38.png",
+    "static/media/email.4dfc815b.png": "/static/media/email.4dfc815b.png",
+    "static/media/f1.bc356f0f.svg": "/static/media/f1.bc356f0f.svg",
+    "static/media/f2.ca7ff653.svg": "/static/media/f2.ca7ff653.svg",
+    "static/media/f3.3cf0a644.svg": "/static/media/f3.3cf0a644.svg",
+    "static/media/f4.31b7cd9e.svg": "/static/media/f4.31b7cd9e.svg",
+    "static/media/f5.a646f28f.svg": "/static/media/f5.a646f28f.svg",
+    "static/media/f6.43dcb687.svg": "/static/media/f6.43dcb687.svg",
+    "static/media/f7.d0163489.svg": "/static/media/f7.d0163489.svg",
+    "static/media/f8.03c0b8bd.svg": "/static/media/f8.03c0b8bd.svg",
+    "static/media/logo.d2453493.svg": "/static/media/logo.d2453493.svg",
+    "static/media/logoonblack.e2b0d5fd.svg": "/static/media/logoonblack.e2b0d5fd.svg",
+    "static/media/narvik.645db367.png": "/static/media/narvik.645db367.png",
+    "static/media/phone1.3af47d23.png": "/static/media/phone1.3af47d23.png",
+    "static/media/phone2.af078adc.png": "/static/media/phone2.af078adc.png",
+    "static/media/sidhu.9631cb2a.png": "/static/media/sidhu.9631cb2a.png",
+    "static/media/universities.2dc02a18.png": "/static/media/universities.2dc02a18.png",
+    "static/media/yash.a181cd09.png": "/static/media/yash.a181cd09.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25c2bd10.js",
+    "static/js/2.12831330.chunk.js",
+    "static/css/main.3ba679cb.chunk.css",
+    "static/js/main.9c1f2c00.chunk.js"
+  ]
+}
