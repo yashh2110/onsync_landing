@@ -1,0 +1,115 @@
+.featuresDiv {
+  margin-top: 70px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 96px;
+  .features {
+    width: 85%;
+    .featureTitle {
+      font-family: "Inter", sans-serif;
+      color: #18191f;
+      font-size: 40px;
+      text-align: left;
+      font-weight: bolder;
+    }
+    .featureCards {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .featureCard {
+        position: relative;
+        width: 255px;
+        height: 200px;
+        background-color: white;
+        margin: 5px;
+        border-radius: 8px;
+        box-shadow: 0 10px 20px #29292a1a;
+        padding: 10px;
+        margin-top: 30px;
+        .featureCardTitle {
+          text-align: left;
+          width: 90%;
+          font-size: 20px;
+          margin: 10px;
+          font-weight: 600;
+          font-family: "Inter", sans-serif;
+        }
+        .cardIcon {
+          position: absolute;
+          bottom: 20px;
+          left: 20px;
+          margin: 5px;
+        }
+      }
+    }
+  }
+  .featureCircle {
+    position: absolute;
+    width: 30%;
+    right: 7%;
+    top: 7%;
+    z-index: -1;
+  }
+}
+@media screen and (max-width: 768px) {
+  .featuresDiv {
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 96px;
+    .features {
+      width: 85%;
+      .featureTitle {
+        font-family: "Inter", sans-serif;
+        color: #18191f;
+        font-size: 24px !important;
+        text-align: left;
+        font-weight: bolder;
+      }
+      .featureCards {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        .featureCard {
+          position: relative;
+          width: 40% !important;
+          height: 160px;
+          background-color: white;
+          margin: 5px;
+          border-radius: 8px;
+          box-shadow: 0 10px 20px #29292a1a;
+          padding: 10px;
+          margin-top: 30px;
+          .featureCardTitle {
+            text-align: left;
+            width: 90%;
+            font-size: 16px;
+            margin: 10px;
+            font-weight: 600;
+            font-family: "Inter", sans-serif;
+          }
+          .cardIcon {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            margin: 5px;
+            font-size: 16px !important;
+          }
+        }
+      }
+    }
+    .featureCircle {
+      position: absolute;
+      width: 55%;
+      right: 2%;
+      top: 7%;
+      z-index: -1;
+    }
+  }
+}

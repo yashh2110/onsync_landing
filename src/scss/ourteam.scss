@@ -1,0 +1,109 @@
+.ourTeamDiv {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #f4f5f7;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  .ourTeam {
+    width: 85%;
+    .ourTeamHeading {
+      color: #232233;
+      text-transform: uppercase;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: "Inter", sans-serif;
+      margin-bottom: 23px;
+      line-height: 47px;
+    }
+    .ourTeamText {
+      width: 45%;
+      margin-top: 0;
+      margin-left: auto;
+      font-weight: 400;
+      margin-right: auto;
+      font-size: 18px;
+      line-height: 32px;
+      font-family: "Inter", sans-serif;
+      margin-bottom: 30px;
+    }
+    .ourTeamCards {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      .ourTeamCard {
+        width: 310px;
+        padding: 15px;
+        margin: 10px 15px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+        .ourTeamImg {
+          width: 165px;
+          display: block;
+          margin-left: auto !important;
+          margin-right: auto;
+          margin-top: 20px;
+        }
+        .teammateName {
+          color: #232233;
+          font-size: 30px;
+          font-weight: bold;
+          line-height: 47px;
+          margin-bottom: 0;
+        }
+        .teammateRole {
+          color: #6c6c72;
+          font-size: 20px;
+          font-weight: 600;
+          margin-top: 5px;
+        }
+        .teammateDesc {
+          color: #6c6c72;
+          font-size: 16px;
+          line-height: 24px;
+          margin: 0;
+        }
+        .contactIcons {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          margin: 5px;
+          margin-top: 25px;
+          margin-bottom: 15px;
+          .socialIcons {
+            color: #6c6c72;
+            &:hover {
+              color: #232233;
+            }
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 768px) {
+      .ourTeamHeading {
+        color: #232233;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "Inter", sans-serif;
+        margin-bottom: 23px;
+        line-height: 47px;
+      }
+      .ourTeamText {
+        width: 100%;
+        margin-top: 0;
+        margin-left: auto;
+        font-weight: 400;
+        margin-right: auto;
+        font-size: 18px;
+        line-height: 32px;
+        font-family: "Inter", sans-serif;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

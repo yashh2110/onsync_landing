@@ -1,0 +1,39 @@
+.navbarDiv {
+  position: relative;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  .navbar {
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    .logo {
+      width: 180px;
+    }
+    .menuBtn {
+      display: none;
+      font-size: 30px;
+    }
+    .navbar-menu {
+      width: 60%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    @media screen and (max-width: 768px) {
+      .menuBtn {
+        display: initial;
+      }
+      .logo {
+        width: 180px;
+      }
+      .navbar-menu {
+        width: 60%;
+        display: none;
+        justify-content: space-evenly;
+      }
+    }
+  }
+}
