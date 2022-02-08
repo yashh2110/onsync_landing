@@ -10,7 +10,7 @@ import Navbar from "../components/common/Navbar";
 function Home() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <Features />
       <Universities />
