@@ -6,7 +6,22 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import SendRoundedIcon from "@mui/icons-material/SendRounded";
+import { links } from "../../pages/data";
+
 function Footer() {
+  const InstagramClickHandler = () => {
+    window.open("https://www.instagram.com/onsync.in/");
+  };
+  const TwitterClickHandler = () => {
+    window.open("https://twitter.com/onSync_");
+  };
+  const LinkdinClickHandler = () => {
+    window.open("https://www.linkedin.com/company/onsync");
+  };
+  const YoutubeClickHandler = () => {
+    window.open("https://www.youtube.com/channel/UCdgJpHWb8Ekjf5h67ilC8xw");
+  };
+
   return (
     <div className="footerDiv">
       <div className="footer">
@@ -16,20 +31,37 @@ function Footer() {
             <p className="copyrights">Copyright © 2021 OnSync.</p>
             <p className="copyrights">All rights reserved</p>
             <div className="contactus">
-              <InstagramIcon className="footIcon" />
-              <TwitterIcon className="footIcon" />
-              <YouTubeIcon className="footIcon" />
-              <LinkedInIcon className="footIcon" />
+              <InstagramIcon
+                className="footIcon"
+                onClick={InstagramClickHandler}
+              />
+              <TwitterIcon className="footIcon" onClick={TwitterClickHandler} />
+              <YouTubeIcon className="footIcon" onClick={YoutubeClickHandler} />
+              <LinkedInIcon
+                className="footIcon"
+                onClick={LinkdinClickHandler}
+              />
             </div>
           </div>
         </div>
         <div className="onSync">
-          <p className="feildHeading">OnSync</p>
-          <p className="feildItem">Home</p>
-          <p className="feildItem">Features</p>
-          <p className="feildItem">Our Team</p>
-          <p className="feildItem">Join the Waitlist</p>
-          <p className="feildItem">Apply for Internships</p>
+          {links.map((link) => {
+            return (
+              <a
+                style={{
+                  textDecoration: "none",
+                  color: "white",
+                  display: "flex",
+                  justifyContent: "space-between",
+                  padding: 7,
+                }}
+                href={link.url}
+                key={link.id}
+              >
+                {link.text}
+              </a>
+            );
+          })}
         </div>
         <div className="stayuptodate">
           <p className="stayuptodateHeading">Stay up to date</p>

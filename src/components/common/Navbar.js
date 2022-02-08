@@ -1,20 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../scss/common/navbar.scss";
 import logo from "../../Assets/logos/logo.svg";
 import MenuIcon from "@mui/icons-material/Menu";
+import { links } from "../../pages/data";
+
 function Navbar() {
+  const [navbarDiv, setnavbarDiv] = useState(false);
+
+  const changeBackground = () => {
+    if (window.scrollY >= 100) {
+      setnavbarDiv(true);
+    } else {
+      setnavbarDiv(false);
+    }
+    
+  };
+  window.addEventListener("scroll", changeBackground);
   return (
-    <div className="navbarDiv">
+    <div className={navbarDiv ? "navbarDiv active" : "navbarDiv"}>
       <div className="navbar">
         <img src={logo} alt="onSync" className="logo" />
         <MenuIcon className="menuBtn" />
         <div className="navbar-menu">
-          <li className="navbar-item">Home</li>
-          <li className="navbar-item">Features</li>
-          <li className="navbar-item">Universities</li>
-          <li className="navbar-item">Our Team</li>
-          <li className="navbar-item">Join the waitlist</li>
-          <li className="navbar-item">Join Our Team</li>
+          {links.map((link) => {
+            return (
+              <a href={link.url} key={link.id} className="navbar-link">
+                {link.text}
+              </a>
+            );
+          })}
         </div>
       </div>
     </div>

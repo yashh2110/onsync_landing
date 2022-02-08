@@ -1,8 +1,22 @@
 .navbarDiv {
-  position: relative;
+  position: sticky;
   top: 0;
   display: flex;
   justify-content: center;
+  background-color: #f6f9ff;
+  z-index: 9999;
+
+  .heroBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+    object-position: top;
+    z-index: -1;
+  }
+
   .navbar {
     position: relative;
     width: 90%;
@@ -22,6 +36,18 @@
       display: flex;
       justify-content: space-evenly;
     }
+    .navbar-menu {
+      .navbar-link {
+        color: black;
+        text-decoration: none;
+        &:hover {
+          color: #0157ff;
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+
     @media screen and (max-width: 768px) {
       .menuBtn {
         display: initial;
@@ -33,6 +59,50 @@
         width: 60%;
         display: none;
         justify-content: space-evenly;
+      }
+    }
+  }
+}
+.navbarDiv.active {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  z-index: 999;
+
+  .heroBackground {
+    visibility: hidden;
+  }
+
+  .navbar {
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    .logo {
+      width: 180px;
+    }
+    .menuBtn {
+      display: none;
+      font-size: 30px;
+    }
+    .navbar-menu {
+      width: 60%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .navbar-menu {
+      .navbar-link {
+        color: black;
+        text-decoration: none;
+        &:hover {
+          color: #0157ff;
+          font-size: 20px;
+          font-weight: bold;
+        }
       }
     }
   }

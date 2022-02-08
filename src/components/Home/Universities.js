@@ -3,15 +3,16 @@ import universities from "../../Assets/images/universities.png";
 import "../../scss/universities.scss";
 function Universities() {
   return (
-    <div className="universityDiv">
+    <div className="universityDiv" id="university">
       <div className="universities">
         <div className="universitiesContext">
           <p className="universitiesHeading">
-            Find Students from 100+Universities
+            Find Students from all over the India.
           </p>
           <p className="universitiesText">
-            Subscribe to our application and get deals from top notch companies
-            in the world every month. Be an exclusive member of the team.
+            Register Now to be the first few people to get exclusive access to
+            our app to win rewards, participate in various events and join
+            communities based upon your interests.
           </p>
         </div>
         <div className="universitiesImage">
