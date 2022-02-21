@@ -36,22 +36,12 @@
         display: flex;
         justify-content: flex-start;
         margin-top: 25px;
-        .waitlistInput {
-          padding: 12px;
-          width: 220px;
-          border-radius: 5px 0 0 5px;
-          border: none;
-          font-family: "Inter", sans-serif;
-          &:focus {
-            outline: none;
-          }
-        }
         .waitlistBtn {
           background-color: #18191f;
           color: white;
           border: none;
           padding: 15px;
-          border-radius: 0px 5px 5px 0;
+          border-radius: 5px 5px 5px 5px;
           font-family: "Inter", sans-serif;
           &:hover {
             background-color: black;

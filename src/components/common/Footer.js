@@ -46,10 +46,16 @@ function Footer() {
             <p className="copyrights">Copyright © 2021 OnSync.</p>
             <p className="copyrights">All rights reserved</p>
             <div className="contactus">
-              <InstagramIcon className="footIcon" />
-              <TwitterIcon className="footIcon" />
-              <YouTubeIcon className="footIcon" />
-              <LinkedInIcon className="footIcon" />
+              <InstagramIcon
+                className="footIcon"
+                onClick={InstagramClickHandler}
+              />
+              <TwitterIcon className="footIcon" onClick={TwitterClickHandler} />
+              <YouTubeIcon className="footIcon" onClick={YoutubeClickHandler} />
+              <LinkedInIcon
+                className="footIcon"
+                onClick={LinkdinClickHandler}
+              />
             </div>
           </div>
         </div>
