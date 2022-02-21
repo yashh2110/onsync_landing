@@ -11,7 +11,7 @@ import f7 from "../../Assets/images/f7.svg";
 import f8 from "../../Assets/images/f8.svg";
 function Features() {
   return (
-    <div className="featuresDiv">
+    <div className="featuresDiv" id="features">
       <div className="features">
         <p className="featureTitle">App features</p>
         <div className="featureCards">

@@ -9,7 +9,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 function OurTeam() {
   return (
-    <div className="ourTeamDiv">
+    <div className="ourTeamDiv" id="ourteam">
       <div className="ourTeam">
         <p className="ourTeamHeading">Our team</p>
         <p className="ourTeamText">

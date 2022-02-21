@@ -6,8 +6,7 @@ import Navbar from "../common/Navbar";
 import HeroContext from "./HeroContext";
 function Hero() {
   return (
-    <div className="hero">
-      <Navbar />
+    <div className="hero" id="home">
       <HeroContext />
       <img src={background} alt="onSync" className="heroBackground" />
       <img src={bg_sm} alt="onSync" className="heroBackground-sm" />

@@ -3,7 +3,7 @@ import universities from "../../Assets/images/universities.png";
 import "../../scss/universities.scss";
 function Universities() {
   return (
-    <div className="universityDiv">
+    <div className="universityDiv" id="university">
       <div className="universities">
         <div className="universitiesContext">
           <p className="universitiesHeading">

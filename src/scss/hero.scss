@@ -23,7 +23,7 @@
     top: 0;
     display: flex;
     justify-content: center;
-
+    padding-top: 100px;
     .hero-context {
       position: relative;
       width: 85%;
@@ -33,20 +33,30 @@
       .hero-context-content {
         width: 65%;
         .hero-context-title {
-          font-size: 70px;
+          font-size: 60px;
           text-align: left;
           font-weight: bolder;
           font-family: "Inter", sans-serif;
+          margin-bottom: 25px;
         }
         .joinform {
           display: flex;
+          margin-top: 20px;
           .joinInput {
             padding: 12px;
             background-color: #f4f5f7;
             border: none;
+            font-size: 16px;
             border-radius: 5px 0 0 5px;
+            border: 1px solid rgb(233, 233, 233);
             &:focus {
               outline: none;
+              box-shadow: 0px 0px 5px 3px #d0d0d044;
+
+              transition: all 0.2s ease-in-out;
+              & + .joinBtn {
+                box-shadow: 0px 0px 5px 3px #d0d0d044;
+              }
             }
           }
           .joinBtn {
@@ -54,7 +64,11 @@
             background-color: #0157ff;
             border-radius: 0 5px 5px 0;
             color: white;
-            padding: 0 15px;
+            padding: 0 10px;
+            font-size: 14px;
+            // font-weight: 500;
+            // letter-spacing: 1px;
+            text-transform: capitalize;
           }
         }
       }
@@ -100,6 +114,90 @@
         }
       }
     }
+
+    @media screen and (max-width: 340px) {
+      .hero-context {
+        position: relative;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .hero-context-content {
+          width: 100% !important;
+          margin-top: 10px;
+          .hero-context-title {
+            font-size: 20px !important;
+            text-align: left;
+            font-weight: bolder;
+            font-family: "Inter", sans-serif;
+          }
+          .joinform {
+            display: flex;
+            .joinInput {
+              padding: 8px;
+              width: 60%;
+              background-color: #f4f5f7;
+              border: none;
+              border-radius: 5px 0 0 5px;
+              &:focus {
+                outline: none;
+              }
+            }
+            .joinBtn {
+              border: none;
+              background-color: #0157ff;
+              border-radius: 0 5px 5px 0;
+              color: white;
+              font-size: 0.7rem;
+              padding: 0 5px;
+            }
+          }
+        }
+        .hero-context-images {
+          position: relative;
+          display: flex;
+          margin-top: 30px;
+          justify-content: center;
+          .hero-context-image1 {
+            position: relative;
+            top: 80px;
+            margin: 1px;
+            width: 100px;
+            animation: phone1Animation 2.5s ease-in-out infinite;
+          }
+          .hero-context-image2 {
+            position: relative;
+            top: 0px;
+            margin: 10px;
+            width: 100px;
+            animation: phone2Animation 2.5s ease-in-out 1s infinite;
+          }
+          @keyframes phone1Animation {
+            0% {
+              top: 50px;
+            }
+            50% {
+              top: 30px;
+            }
+            100% {
+              top: 50px;
+            }
+          }
+          @keyframes phone2Animation {
+            0% {
+              top: 0px;
+            }
+            50% {
+              top: 10px;
+            }
+            100% {
+              top: 0px;
+            }
+          }
+        }
+      }
+    }
+
     @media screen and (max-width: 768px) {
       .hero-context {
         position: relative;
@@ -111,10 +209,13 @@
           width: 100% !important;
           margin-top: 10px;
           .hero-context-title {
-            font-size: 35px !important;
+            font-size: 30px !important;
             text-align: left;
             font-weight: bolder;
             font-family: "Inter", sans-serif;
+            @media screen and (max-width: 340px) {
+              font-size: 24px !important;
+            }
           }
           .joinform {
             display: flex;
@@ -139,7 +240,7 @@
         .hero-context-images {
           position: relative;
           display: flex;
-          margin-top: 50px;
+          margin-top: 30px;
           justify-content: center;
           .hero-context-image1 {
             position: relative;
@@ -147,6 +248,12 @@
             margin: 1px;
             width: 120px;
             animation: phone1Animation 2.5s ease-in-out infinite;
+            @media screen and (max-width: 340px) {
+              width: 100px;
+            }
+            @media screen and (max-height: 630px) {
+              width: 100px;
+            }
           }
           .hero-context-image2 {
             position: relative;
@@ -154,16 +261,22 @@
             margin: 10px;
             width: 120px;
             animation: phone2Animation 2.5s ease-in-out 1s infinite;
+            @media screen and (max-width: 340px) {
+              width: 100px;
+            }
+            @media screen and (max-height: 630px) {
+              width: 100px;
+            }
           }
           @keyframes phone1Animation {
             0% {
-              top: 80px;
+              top: 50px;
             }
             50% {
-              top: 60px;
+              top: 30px;
             }
             100% {
-              top: 80px;
+              top: 50px;
             }
           }
           @keyframes phone2Animation {
@@ -171,7 +284,7 @@
               top: 0px;
             }
             50% {
-              top: 20px;
+              top: 10px;
             }
             100% {
               top: 0px;

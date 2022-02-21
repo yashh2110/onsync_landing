@@ -76,6 +76,9 @@
         justify-content: space-between;
         flex-wrap: wrap;
         width: 100%;
+        @media screen and (max-width: 340px) {
+          justify-content: center;
+        }
         .featureCard {
           position: relative;
           width: 40% !important;
@@ -86,6 +89,9 @@
           box-shadow: 0 10px 20px #29292a1a;
           padding: 10px;
           margin-top: 30px;
+          @media screen and (max-width: 340px) {
+            width: 80% !important;
+          }
           .featureCardTitle {
             text-align: left;
             width: 90%;
