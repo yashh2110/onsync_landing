@@ -199,6 +199,7 @@
     }
 
     @media screen and (max-width: 768px) {
+      padding-top: 70px;
       .hero-context {
         position: relative;
         width: 85%;
@@ -234,6 +235,7 @@
               border-radius: 0 5px 5px 0;
               color: white;
               padding: 0 15px;
+              white-space: nowrap;
             }
           }
         }
