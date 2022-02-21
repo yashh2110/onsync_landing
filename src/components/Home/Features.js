@@ -9,6 +9,7 @@ import f5 from "../../Assets/images/f5.svg";
 import f6 from "../../Assets/images/f6.svg";
 import f7 from "../../Assets/images/f7.svg";
 import f8 from "../../Assets/images/f8.svg";
+
 function Features() {
   return (
     <div className="featuresDiv" id="features">
@@ -50,8 +51,8 @@ function Features() {
             <img src={f8} alt="o" className="cardIcon" />
           </div>
         </div>
+        <img className="featureCircle" src={circle} alt="onsync" />
       </div>
-      <img className="featureCircle" src={circle} alt="onsync" />
     </div>
   );
 }
