@@ -3,6 +3,7 @@ import "../../scss/ourteam.scss";
 import yash from "../../Assets/images/yash.png";
 import sidhu from "../../Assets/images/sidhu.png";
 import narvik from "../../Assets/images/narvik.png";
+import neer from "../../Assets/images/neer.png";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -23,7 +24,7 @@ function OurTeam() {
   };
 
   const twitterClickHandlerYashwanth = () => {
-    window.open("https://twitter.com/YashuMuddana");
+    window.open("https://twitter.com/Yashh2110");
   };
   const twitterClickHandlerSiddhu = () => {
     window.open("https://twitter.com/SiddhardhaVar12");
@@ -120,7 +121,7 @@ function OurTeam() {
             </div>
           </div>
           <div className="ourTeamCard">
-            <img src={narvik} alt="narvik" className="ourTeamImg" />
+            <img src={neer} alt="narvik" className="ourTeamImg" />
             <p className="teammateName">Neeraja</p>
             <p className="teammateRole">Backend Developer</p>
 

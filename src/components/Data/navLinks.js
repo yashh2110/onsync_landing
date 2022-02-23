@@ -24,9 +24,4 @@ export const links = [
     text: "Waitlist",
     url: "#waitlist",
   },
-  {
-    id: 6,
-    text: "Apply for Internship",
-    url: "https://forms.gle/5kPVkp29WQji4iUV9",
-  },
 ];

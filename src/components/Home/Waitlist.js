@@ -12,14 +12,19 @@ function Waitlist() {
   //   window.open("https://forms.gle/5kPVkp29WQji4iUV9");
   // };
   const userCollection = collection(firedb, "users");
+  const getCount = async () => {
+    await getDocs(userCollection).then((res) => setCount(res.docs.length));
+  };
   useEffect(() => {
-    return getDocs(userCollection).then((res) => console.log(res.docs.length));
+    getCount();
+    return getCount();
   }, []);
   const addData = async (e) => {
     e.preventDefault();
     if (email.length >= 1) {
       await addDoc(userCollection, { email }).then((res) => {
         setEmail("");
+        getCount();
         toast.success("Yay! You are onSync ", {
           position: "top-center",
           autoClose: 3000,

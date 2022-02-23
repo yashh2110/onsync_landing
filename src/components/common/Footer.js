@@ -46,16 +46,27 @@ function Footer() {
             <p className="copyrights">Copyright © 2021 OnSync.</p>
             <p className="copyrights">All rights reserved</p>
             <div className="contactus">
-              <InstagramIcon
-                className="footIcon"
-                // onClick={InstagramClickHandler}
-              />
-              <TwitterIcon className="footIcon" />
-              <YouTubeIcon className="footIcon" />
-              <LinkedInIcon
-                className="footIcon"
-                // onClick={LinkdinClickHandler}
-              />
+              <a href="https://www.instagram.com/onsync.in/" target="_blank">
+                <InstagramIcon
+                  className="footIcon"
+                  // onClick={InstagramClickHandler}
+                />
+              </a>
+              <a href="https://twitter.com/onSync_" target="_blank">
+                <TwitterIcon className="footIcon" />
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCdgJpHWb8Ekjf5h67ilC8xw"
+                target="_blank"
+              >
+                <YouTubeIcon className="footIcon" />
+              </a>
+              <a href="https://www.linkedin.com/company/onsync" target="_blank">
+                <LinkedInIcon
+                  className="footIcon"
+                  // onClick={LinkdinClickHandler}
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -68,17 +79,27 @@ function Footer() {
           <p className="feildItem">Apply for Internships</p> */}
           {links.map((link) => {
             return (
-              <HashLink
-                smooth
-                to={link.url}
-                key={link.id}
-                style={{ textDecoration: "none" }}
-              >
-                <p className="feildItem">{link.text}</p>
-              </HashLink>
+              <>
+                <HashLink
+                  smooth
+                  to={link.url}
+                  key={link.id}
+                  style={{ textDecoration: "none" }}
+                >
+                  <p className="feildItem">{link.text}</p>
+                </HashLink>
+              </>
               // <div></div>
             );
           })}
+          <a
+            href="https://forms.gle/5kPVkp29WQji4iUV9"
+            target="_blank"
+            className="navbar-link"
+            style={{ textDecoration: "none" }}
+          >
+            <p className="feildItem">Apply for Internship</p>
+          </a>
         </div>
         <div className="stayuptodate">
           <p className="stayuptodateHeading">Stay up to date</p>

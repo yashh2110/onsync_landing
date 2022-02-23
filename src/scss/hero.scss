@@ -78,7 +78,7 @@
         justify-content: space-between;
         .hero-context-image1 {
           position: relative;
-          top: 80px;
+          top: 60px;
           margin: 1px;
           width: 180px;
           animation: phone1Animation 2.5s ease-in-out infinite;
@@ -90,28 +90,28 @@
           width: 180px;
           animation: phone2Animation 2.5s ease-in-out 1s infinite;
         }
-        @keyframes phone1Animation {
-          0% {
-            top: 80px;
-          }
-          50% {
-            top: 60px;
-          }
-          100% {
-            top: 80px;
-          }
-        }
-        @keyframes phone2Animation {
-          0% {
-            top: 0px;
-          }
-          50% {
-            top: 20px;
-          }
-          100% {
-            top: 0px;
-          }
-        }
+        // @keyframes phone1Animation {
+        //   0% {
+        //     top: 80px;
+        //   }
+        //   50% {
+        //     top: 60px;
+        //   }
+        //   100% {
+        //     top: 80px;
+        //   }
+        // }
+        // @keyframes phone2Animation {
+        //   0% {
+        //     top: 0px;
+        //   }
+        //   50% {
+        //     top: 20px;
+        //   }
+        //   100% {
+        //     top: 0px;
+        //   }
+        // }
       }
     }
 
@@ -149,6 +149,7 @@
               border-radius: 0 5px 5px 0;
               color: white;
               font-size: 0.7rem;
+              width: 40%;
               padding: 0 5px;
             }
           }
@@ -172,28 +173,28 @@
             width: 100px;
             animation: phone2Animation 2.5s ease-in-out 1s infinite;
           }
-          @keyframes phone1Animation {
-            0% {
-              top: 50px;
-            }
-            50% {
-              top: 30px;
-            }
-            100% {
-              top: 50px;
-            }
-          }
-          @keyframes phone2Animation {
-            0% {
-              top: 0px;
-            }
-            50% {
-              top: 10px;
-            }
-            100% {
-              top: 0px;
-            }
-          }
+          // @keyframes phone1Animation {
+          //   0% {
+          //     top: 50px;
+          //   }
+          //   50% {
+          //     top: 30px;
+          //   }
+          //   100% {
+          //     top: 50px;
+          //   }
+          // }
+          // @keyframes phone2Animation {
+          //   0% {
+          //     top: 0px;
+          //   }
+          //   50% {
+          //     top: 10px;
+          //   }
+          //   100% {
+          //     top: 0px;
+          //   }
+          // }
         }
       }
     }
@@ -224,6 +225,7 @@
               padding: 12px;
               background-color: #f4f5f7;
               border: none;
+              width: 65%;
               border-radius: 5px 0 0 5px;
               &:focus {
                 outline: none;
@@ -234,6 +236,7 @@
               background-color: #0157ff;
               border-radius: 0 5px 5px 0;
               color: white;
+              width: 35%;
               padding: 0 15px;
               white-space: nowrap;
             }
@@ -270,28 +273,28 @@
               width: 100px;
             }
           }
-          @keyframes phone1Animation {
-            0% {
-              top: 50px;
-            }
-            50% {
-              top: 30px;
-            }
-            100% {
-              top: 50px;
-            }
-          }
-          @keyframes phone2Animation {
-            0% {
-              top: 0px;
-            }
-            50% {
-              top: 10px;
-            }
-            100% {
-              top: 0px;
-            }
-          }
+          // @keyframes phone1Animation {
+          //   0% {
+          //     top: 50px;
+          //   }
+          //   50% {
+          //     top: 30px;
+          //   }
+          //   100% {
+          //     top: 50px;
+          //   }
+          // }
+          // @keyframes phone2Animation {
+          //   0% {
+          //     top: 0px;
+          //   }
+          //   50% {
+          //     top: 10px;
+          //   }
+          //   100% {
+          //     top: 0px;
+          //   }
+          // }
         }
       }
     }

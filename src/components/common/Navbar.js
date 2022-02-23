@@ -63,17 +63,26 @@ function Navbar() {
         <div className="navbar-menu">
           {links.map((link) => {
             return (
-              <HashLink
-                smooth
-                to={link.url}
-                key={link.id}
-                className="navbar-link"
-              >
-                {link.text}
-              </HashLink>
+              <>
+                <HashLink
+                  smooth
+                  to={link.url}
+                  key={link.id}
+                  className="navbar-link"
+                >
+                  {link.text}
+                </HashLink>
+              </>
               // <div></div>
             );
           })}
+          <a
+            href="https://forms.gle/5kPVkp29WQji4iUV9"
+            target="_blank"
+            className="navbar-link"
+          >
+            Apply for Internship{" "}
+          </a>
         </div>
         <div className="navbar-menu-sm" id="sm-nav">
           <Button
@@ -103,21 +112,35 @@ function Navbar() {
             <li className="navbar-item-sm">Join Our Team</li> */}
             {links.map((link) => {
               return (
-                <HashLink
-                  smooth
-                  to={link.url}
-                  key={link.id}
-                  onClick={() =>
-                    document.getElementById("sm-nav").classList.toggle("active")
-                  }
-                  style={{ textDecoration: "none" }}
-                >
-                  <li className="navbar-item-sm"> {link.text}</li>
-                </HashLink>
-
+                <>
+                  <HashLink
+                    smooth
+                    to={link.url}
+                    key={link.id}
+                    onClick={() =>
+                      document
+                        .getElementById("sm-nav")
+                        .classList.toggle("active")
+                    }
+                    style={{ textDecoration: "none" }}
+                  >
+                    <li className="navbar-item-sm"> {link.text}</li>
+                  </HashLink>
+                </>
                 // <div></div>
               );
             })}
+            <a
+              href="https://forms.gle/5kPVkp29WQji4iUV9"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+              className="navbar-link"
+              onClick={() =>
+                document.getElementById("sm-nav").classList.toggle("active")
+              }
+            >
+              <li className="navbar-item-sm"> Apply for Internship</li>
+            </a>
           </div>
           <form className="navbar-menu-sm-form">
             <input

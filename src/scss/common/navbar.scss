@@ -180,9 +180,8 @@
         display: initial;
       }
       .logo {
-        width: 120px;
+        width: 150px;
       }
-
       .navbar-menu-sm {
         display: initial;
         position: fixed;
@@ -191,12 +190,12 @@
         width: 100%;
         height: 100vh;
         z-index: 100;
-        transition: all 0.4s ease-in-out;
         background-color: #ffa901;
         display: flex;
         flex-direction: column;
+        transition: all 0.4s ease-in-out;
+
         align-items: center;
-        justify-content: space-between;
         &.active {
           left: 0;
           transition: all 0.4s ease-in-out;
