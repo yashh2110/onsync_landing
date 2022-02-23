@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/onsync_landing/static/css/main.65376205.chunk.css",
-    "main.js": "/onsync_landing/static/js/main.a45894ff.chunk.js",
-    "main.js.map": "/onsync_landing/static/js/main.a45894ff.chunk.js.map",
+    "main.js": "/onsync_landing/static/js/main.a461d5ac.chunk.js",
+    "main.js.map": "/onsync_landing/static/js/main.a461d5ac.chunk.js.map",
     "runtime-main.js": "/onsync_landing/static/js/runtime-main.d3125954.js",
     "runtime-main.js.map": "/onsync_landing/static/js/runtime-main.d3125954.js.map",
     "static/css/2.f4c56af9.chunk.css": "/onsync_landing/static/css/2.f4c56af9.chunk.css",
@@ -28,8 +28,8 @@
     "static/media/logoonyellow.f1a03fbe.svg": "/onsync_landing/static/media/logoonyellow.f1a03fbe.svg",
     "static/media/narvik.645db367.png": "/onsync_landing/static/media/narvik.645db367.png",
     "static/media/neer.adbe386c.png": "/onsync_landing/static/media/neer.adbe386c.png",
-    "static/media/phone1.3af47d23.png": "/onsync_landing/static/media/phone1.3af47d23.png",
-    "static/media/phone2.af078adc.png": "/onsync_landing/static/media/phone2.af078adc.png",
+    "static/media/phone1.40bf70f6.png": "/onsync_landing/static/media/phone1.40bf70f6.png",
+    "static/media/phone2.d2fa2def.png": "/onsync_landing/static/media/phone2.d2fa2def.png",
     "static/media/sidhu.9631cb2a.png": "/onsync_landing/static/media/sidhu.9631cb2a.png",
     "static/media/universities.2dc02a18.png": "/onsync_landing/static/media/universities.2dc02a18.png",
     "static/media/yash.a181cd09.png": "/onsync_landing/static/media/yash.a181cd09.png"
@@ -39,6 +39,6 @@
     "static/css/2.f4c56af9.chunk.css",
     "static/js/2.3ddb11e5.chunk.js",
     "static/css/main.65376205.chunk.css",
-    "static/js/main.a45894ff.chunk.js"
+    "static/js/main.a461d5ac.chunk.js"
   ]
 }
