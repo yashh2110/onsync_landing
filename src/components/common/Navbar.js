@@ -16,7 +16,7 @@ function Navbar() {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       console.log(window.pageYOffset);
-      if (window.pageYOffset > 100) {
+      if (window.pageYOffset > 50) {
         document.querySelector("#nav").className = "navbarDiv navbarDivActive";
       } else {
         document.querySelector("#nav").className = "navbarDiv  ";
@@ -56,8 +56,7 @@ function Navbar() {
           style={{ color: "#333", borderRadius: "7px" }}
           onClick={() =>
             document.getElementById("sm-nav").classList.toggle("active")
-          }
-        >
+          }>
           <MenuIcon className="menuBtn" />
         </Button>
         <div className="navbar-menu">
@@ -68,8 +67,7 @@ function Navbar() {
                   smooth
                   to={link.url}
                   key={link.id}
-                  className="navbar-link"
-                >
+                  className="navbar-link">
                   {link.text}
                 </HashLink>
               </>
@@ -79,8 +77,7 @@ function Navbar() {
           <a
             href="https://forms.gle/5kPVkp29WQji4iUV9"
             target="_blank"
-            className="navbar-link"
-          >
+            className="navbar-link">
             Join our team{" "}
           </a>
         </div>
@@ -94,8 +91,7 @@ function Navbar() {
             }}
             onClick={() =>
               document.getElementById("sm-nav").classList.toggle("active")
-            }
-          >
+            }>
             <CloseIcon style={{ color: "white", fontSize: "30px" }} />
           </Button>
           <img
@@ -122,8 +118,7 @@ function Navbar() {
                         .getElementById("sm-nav")
                         .classList.toggle("active")
                     }
-                    style={{ textDecoration: "none" }}
-                  >
+                    style={{ textDecoration: "none" }}>
                     <li className="navbar-item-sm"> {link.text}</li>
                   </HashLink>
                 </>
@@ -136,8 +131,7 @@ function Navbar() {
               style={{ textDecoration: "none" }}
               onClick={() =>
                 document.getElementById("sm-nav").classList.toggle("active")
-              }
-            >
+              }>
               <button className="navbar-form-btn">Join Our Team</button>
             </a>
           </div>
