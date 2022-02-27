@@ -21,17 +21,17 @@ function Features() {
             <img src={f1} alt="o" className="cardIcon" />
           </div>
           <div className="featureCard">
-            <p className="featureCardTitle">
-              Find People with similar Intrests
-            </p>
+            <p className="featureCardTitle">Explore Events and Challenges</p>
             <img src={f2} alt="o" className="cardIcon" />
           </div>
           <div className="featureCard">
-            <p className="featureCardTitle">Find Your university</p>
+            <p className="featureCardTitle">
+              Stay Updated with Your University
+            </p>
             <img src={f3} alt="o" className="cardIcon" />
           </div>
           <div className="featureCard">
-            <p className="featureCardTitle">Join Various Communities</p>
+            <p className="featureCardTitle">Earn Rewards</p>
             <img src={f4} alt="o" className="cardIcon" />
           </div>
           <div className="featureCard">
@@ -43,11 +43,13 @@ function Features() {
             <img src={f6} alt="o" className="cardIcon" />
           </div>
           <div className="featureCard">
-            <p className="featureCardTitle">Join Debates</p>
+            <p className="featureCardTitle">Join Various Communities</p>
             <img src={f7} alt="o" className="cardIcon" />
           </div>
           <div className="featureCard">
-            <p className="featureCardTitle">Learn new Things</p>
+            <p className="featureCardTitle">
+              Find People With Similar Intrests
+            </p>
             <img src={f8} alt="o" className="cardIcon" />
           </div>
         </div>

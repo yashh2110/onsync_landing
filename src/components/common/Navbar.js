@@ -81,7 +81,7 @@ function Navbar() {
             target="_blank"
             className="navbar-link"
           >
-            Apply for Internship{" "}
+            Join our team{" "}
           </a>
         </div>
         <div className="navbar-menu-sm" id="sm-nav">
@@ -134,12 +134,11 @@ function Navbar() {
               href="https://forms.gle/5kPVkp29WQji4iUV9"
               target="_blank"
               style={{ textDecoration: "none" }}
-              className="navbar-link"
               onClick={() =>
                 document.getElementById("sm-nav").classList.toggle("active")
               }
             >
-              <button className="navbar-form-btn">Apply for Internship</button>
+              <button className="navbar-form-btn">Join Our Team</button>
             </a>
           </div>
           {/* <form className="navbar-menu-sm-form">

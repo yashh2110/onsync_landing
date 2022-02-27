@@ -26,8 +26,7 @@ export const links = [
   },
   {
     id: 6,
-    text: "Apply for Internship",
+    text: "Join our Team",
     url: "https://forms.gle/5kPVkp29WQji4iUV9",
   },
 ];
-

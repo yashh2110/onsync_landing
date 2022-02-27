@@ -58,6 +58,19 @@ function OurTeam() {
           world to place of learing and building connections with people with
           similar interests and hobbies. We are open to any kind of feedback and
           suggestions.
+          <br />
+          Intrested in joining us?
+          <a
+            style={{
+              textDecoration: "none",
+              color: "#FFA901",
+              fontWeight: "650",
+              paddingLeft: "5px",
+            }}
+            href="https://docs.google.com/forms/d/e/1FAIpQLScwddOGycLEYZWsPRck50pRnNzUH6K2fKC050srlS3t2kqTqQ/viewform"
+          >
+            Click here!.
+          </a>
         </p>
         <div className="ourTeamCards">
           <div className="ourTeamCard">
@@ -100,26 +113,7 @@ function OurTeam() {
               />
             </div>
           </div>
-          <div className="ourTeamCard">
-            <img src={narvik} alt="narvik" className="ourTeamImg" />
-            <p className="teammateName">Narvik</p>
-            <p className="teammateRole">Full Stack Developer</p>
 
-            <div className="contactIcons">
-              <InstagramIcon
-                className="socialIcons"
-                onClick={instagramClickHandlerNarvik}
-              />
-              <TwitterIcon
-                className="socialIcons"
-                onClick={twitterClickHandlerNarvik}
-              />
-              <LinkedInIcon
-                className="socialIcons"
-                onClick={linkdinClickHandlerNarvik}
-              />
-            </div>
-          </div>
           <div className="ourTeamCard">
             <img src={neer} alt="narvik" className="ourTeamImg" />
             <p className="teammateName">Neeraja</p>
