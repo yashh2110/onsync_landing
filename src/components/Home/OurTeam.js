@@ -54,10 +54,10 @@ function OurTeam() {
       <div className="ourTeam">
         <p className="ourTeamHeading">Our team</p>
         <p className="ourTeamText">
-          We have been working Towards connecting students from all around the
+          We have been working towards connecting students from all around the
           world to place of learing and building connections with people with
           similar interests and hobbies. We are open to any kind of feedback and
-          suggestions
+          suggestions.
         </p>
         <div className="ourTeamCards">
           <div className="ourTeamCard">

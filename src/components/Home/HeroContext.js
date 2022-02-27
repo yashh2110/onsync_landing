@@ -57,6 +57,10 @@ function HeroContext() {
             The Ultimate <br />
             Event-Based <br /> Social Media App.
           </p>
+          <p className="hero-context-text">
+            Register for our beta now to stay onSync with all the fun and
+            exiciting events around you.
+          </p>
           <form className="joinform" onSubmit={addData}>
             <input
               type="text"
@@ -74,7 +78,7 @@ function HeroContext() {
           <img
             ref={phone1}
             src={
-              "https://firebasestorage.googleapis.com/v0/b/onsync-b9627.appspot.com/o/phone1%20(1).png?alt=media&token=7e3c8680-92b4-4553-934d-165714c1ece4"
+              "https://firebasestorage.googleapis.com/v0/b/onsync-b9627.appspot.com/o/PhoneLeft.png?alt=media&token=54a4ce6e-892f-4de2-b511-6be21faa110a"
             }
             alt="phone1"
             className="hero-context-image1"
@@ -82,7 +86,7 @@ function HeroContext() {
           <img
             ref={phone2}
             src={
-              "https://firebasestorage.googleapis.com/v0/b/onsync-b9627.appspot.com/o/phone2%20(1).png?alt=media&token=29b62c4d-c5cf-44bb-8110-dd8299d1a4b3"
+              "https://firebasestorage.googleapis.com/v0/b/onsync-b9627.appspot.com/o/PhoneRight.png?alt=media&token=dd17fcec-84ec-4d11-92ad-1f478a28a284"
             }
             alt="phone2"
             className="hero-context-image2"

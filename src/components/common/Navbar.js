@@ -139,10 +139,10 @@ function Navbar() {
                 document.getElementById("sm-nav").classList.toggle("active")
               }
             >
-              <li className="navbar-item-sm"> Apply for Internship</li>
+              <button className="navbar-form-btn">Apply for Internship</button>
             </a>
           </div>
-          <form className="navbar-menu-sm-form">
+          {/* <form className="navbar-menu-sm-form">
             <input
               className="navbar-input"
               type="text"
@@ -152,7 +152,7 @@ function Navbar() {
             <button className="navbar-form-btn" onClick={addData}>
               Join the waitlist
             </button>
-          </form>
+          </form> */}
           <div className="navbar-menu-sm-contact"></div>
         </div>
       </div>

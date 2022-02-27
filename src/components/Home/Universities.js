@@ -12,7 +12,7 @@ function Universities() {
           <p className="universitiesText">
             Register Now to be the first few people to get exclusive access to
             our app to win rewards, participate in various events and join
-            communities based upon your interests.
+            communities based on your interests.
           </p>
         </div>
         <div className="universitiesImage">
