@@ -1,7 +1,7 @@
 {
   "name": "onsync_landing",
   "version": "0.1.0",
-  "homepage": "https://yashh2110.github.io/onsync_landing/",
+  "homepage": "https://onsync.in",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.6.0",

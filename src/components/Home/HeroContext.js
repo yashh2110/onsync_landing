@@ -70,7 +70,7 @@ function HeroContext() {
               onChange={(e) => setEmail(e.target.value)}
             />
             <Button className="joinBtn" type="submit">
-              Join Us
+              Join Waitlist
             </Button>
           </form>
         </div>
