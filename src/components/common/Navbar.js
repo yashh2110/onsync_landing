@@ -78,7 +78,7 @@ function Navbar() {
             href="https://forms.gle/5kPVkp29WQji4iUV9"
             target="_blank"
             className="navbar-link">
-            Join our team{" "}
+            Work with us{" "}
           </a>
         </div>
         <div className="navbar-menu-sm" id="sm-nav">
@@ -105,7 +105,7 @@ function Navbar() {
             <li className="navbar-item-sm">Universities</li>
             <li className="navbar-item-sm">Our Team</li>
             <li className="navbar-item-sm">Join the waitlist</li>
-            <li className="navbar-item-sm">Join Our Team</li> */}
+            <li className="navbar-item-sm">Work with us</li> */}
             {links.map((link) => {
               return (
                 <>
@@ -132,7 +132,7 @@ function Navbar() {
               onClick={() =>
                 document.getElementById("sm-nav").classList.toggle("active")
               }>
-              <button className="navbar-form-btn">Join Our Team</button>
+              <button className="navbar-form-btn">Work with us</button>
             </a>
           </div>
           {/* <form className="navbar-menu-sm-form">
