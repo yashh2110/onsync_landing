@@ -78,7 +78,7 @@ function HeroContext() {
           <img
             ref={phone1}
             src={
-              "https://firebasestorage.googleapis.com/v0/b/onsync-b9627.appspot.com/o/PhoneLeft.png?alt=media&token=54a4ce6e-892f-4de2-b511-6be21faa110a"
+              "https://firebasestorage.googleapis.com/v0/b/onsync-b9627.appspot.com/o/PhoneL.png?alt=media&token=bfce02d7-ebd8-444b-b490-a31989cef962"
             }
             alt="phone1"
             className="hero-context-image1"
@@ -86,7 +86,7 @@ function HeroContext() {
           <img
             ref={phone2}
             src={
-              "https://firebasestorage.googleapis.com/v0/b/onsync-b9627.appspot.com/o/PhoneRight.png?alt=media&token=dd17fcec-84ec-4d11-92ad-1f478a28a284"
+              "https://firebasestorage.googleapis.com/v0/b/onsync-b9627.appspot.com/o/PhoneR.png?alt=media&token=c90e91a2-3553-4e12-8377-91558dff2beb"
             }
             alt="phone2"
             className="hero-context-image2"
