@@ -17,7 +17,6 @@ function Waitlist() {
   };
   useEffect(() => {
     getCount();
-    return getCount();
   }, []);
   const addData = async (e) => {
     e.preventDefault();
