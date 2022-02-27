@@ -7,7 +7,7 @@ function Universities() {
       <div className="universities">
         <div className="universitiesContext">
           <p className="universitiesHeading">
-            Find Students from all over the India.
+            Find Students from all over India.
           </p>
           <p className="universitiesText">
             Register Now to be the first few people to get exclusive access to
