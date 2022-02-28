@@ -77,13 +77,13 @@ function HeroContext() {
         <div className="hero-context-images">
           <img
             ref={phone1}
-            src={"https://i.imgur.com/DBNryPF.png"}
+            src={"https://i.imgur.com/7yDE4Uq.png"}
             alt="phone1"
             className="hero-context-image1"
           />
           <img
             ref={phone2}
-            src={"https://i.imgur.com/5nwtgSh.png"}
+            src={"https://i.imgur.com/rLQedUh.png"}
             alt="phone2"
             className="hero-context-image2"
           />
