@@ -77,13 +77,17 @@ function HeroContext() {
         <div className="hero-context-images">
           <img
             ref={phone1}
-            src={"https://i.imgur.com/7yDE4Uq.png"}
+            src={
+              "https://firebasestorage.googleapis.com/v0/b/onsync-b9627.appspot.com/o/l.png?alt=media&token=0bff244b-4d30-4703-b05f-94ba4bf90b88"
+            }
             alt="phone1"
             className="hero-context-image1"
           />
           <img
             ref={phone2}
-            src={"https://i.imgur.com/rLQedUh.png"}
+            src={
+              "https://firebasestorage.googleapis.com/v0/b/onsync-b9627.appspot.com/o/r.png?alt=media&token=55824cab-b790-4dc8-a095-2e972bff87b2"
+            }
             alt="phone2"
             className="hero-context-image2"
           />
